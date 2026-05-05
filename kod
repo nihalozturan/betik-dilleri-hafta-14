@@ -49,3 +49,95 @@ Click me to display Date and Time.</button>
 
 </body>
 </html> 
+
+
+arr=['nihal,'nergis','melek','batur'];
+for(var i=0 ; i<arr.lenght;i++){
+alert(arr[i]);
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<h2>The setTimeout() Method</h2>
+
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<h2 id="demo"></h2>
+
+<script>
+setTimeout(myFunction, 3000);
+
+
+function myFunction() {
+const deneme = ['Nihal','Nergis','Melek','Batur'];
+for (let i = 0; i < deneme.length; i++){
+
+	document.getElementById("demo").innerHTML = "I love You "+ [deneme];
+    }
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<h2>The setTimeout() Method</h2>
+
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<h2 id="demo"></h2>
+
+<script>
+setTimeout(myFunction, 3000);
+
+
+function myFunction() {
+const deneme = ['Nihal','Nergis','Melek','Batur'];
+for (let i = 0; i < deneme.length; i++){
+	for (let j = 0; j < i.length; j++){
+	document.getElementById("demo").innerHTML = "I love You "+ [deneme];
+    }
+    }
+    }
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<h2>The setTimeout() Method</h2>
+
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<h2 id="demo"></h2>
+
+<script>
+setInterval(myFunction, 3000);
+function myFunction() {
+var deneme = ['Nihal','Nergis','Melek','Batur'];
+for (let i = 0; i < deneme.length; i++){	
+	document.getElementById("demo").innerHTML = "I love You "+ [deneme];
+    }
+ }
+ 
+
+</script>
+</body>
+</html>
+
+
